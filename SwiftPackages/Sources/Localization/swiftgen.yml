@@ -1,0 +1,8 @@
+strings:
+  inputs:
+    - Resources/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      params:
+        publicAccess: true
+      output: ${DERIVED_SOURCES_DIR}/Strings.generated.swift
