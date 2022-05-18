@@ -22,6 +22,7 @@ let package = Package(
             capability: .buildTool(),
             dependencies: ["touch"]
         ),
+//        .executableTarget(name: "touch")
         .binaryTarget(name: "touch", path: "bin/touch.artifactbundle")
     ]
 )
