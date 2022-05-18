@@ -5,12 +5,11 @@
 //  Created by Ryan Zulkoski on 5/6/22.
 //
 
-import Localization
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text(L10n.LaunchScreen.welcomeMessage)
+        Text("Build and check derived data.")
             .padding()
     }
 }
